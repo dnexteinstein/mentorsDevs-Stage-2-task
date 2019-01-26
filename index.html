@@ -2,9 +2,85 @@
 <html lang="en">
 <meta charset="utf-8">
 <head>
-	<title></title>
+	<title>Adekunle-Adesoji-Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css
+      ">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-
+<body style="font-family: sans-serif; font-size: 16px; color:#333">
+	<header class="container-wide">
+  <nav>
+  <a href="./" class="brand">Adekunle</a>
+  <span class="align-right">
+    <a href="./">Blog</a>
+    <a href="#contact-form">Contacts</a>
+  </span>
+  </nav>
+</header>
+<main>
+	<div class="cover-and-quote">
+  <div class="quote-card card">
+    <p class="quote">They conquer who believe they can.</p>
+    <p class="attribution">-Ralph Waldo Emerson</p>
+  </div>
+</div>
+<div class="introduction">
+  <div class="card intro-card">
+    <div class="bio">
+      <img src="images/profile-picture.jpg" class="profile" alt="Adekunle Adesoji">
+      <div class="name-card">
+        <h1>Adekunle Adesoji</h1>
+        <p>Aspiring Software Developer and Tech Enterpreneur</p>
+      </div>
+    </div>
+    <div class="intro-text">
+      <p>I am an aspiring software developer and tech enterpreneur. My greatest passion is to create useful stuff through science and technology. Currently, I am trying to learn the necessary skills/knowledge to help me achieve my goals. Nevertheless, you can hire me because I've already conquered HTML & CSS.</p>
+    </div>
+    <button type="button">Hire me!</button>
+  </div>
+</div>
+<!--Projects-->
+<div class="project">
+  <div class="project-card card">
+    <h2>Projects</h2>
+	<div class="single-project-card card pacing-robot">
+	  <div class="project-description">
+	    <h3>Pacing Robot</h3>
+	    <p>This is a project which shows how css animation property and @keyframes rules are used in creating animations</p>
+	  </div>
+	</div>
+	<div class="single-project-card card html-css-form">
+	  <div class="project-description">
+	    <h3>Beautiful HTML/CSS Form</h3>
+	    <p>A beautiul web form created with HTML and CSS only. This was metorsDev stage-1 task</p>
+	  </div>
+	</div>
+    <!--Insert individual project cards here-->
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="contact-form" class="contact-form">
+  <div class="contact-form-card card">
+    <h2>Contact me</h2>
+    <p>Will be glad to here from you</p>
+    <form action="./">
+      <div class="input-group half">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="input-group half last">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="input-group text-area clear">
+        <label for="message" hidden>Message</label>
+        <textarea name="message" id="message" placeholder="I would like..."></textarea>
+      </div>
+      <button type="submit" class="form-button">Send</button>
+    </form>
+  </div>
+  <p class="stand-alone">You can also reach me through my email, dnexteinstein@yahoo.com. See other stuff I work on my <a href="https://github.com/dnexteinstein/" target="_blank">github.</a></p>
+</div>
+</main>
 </body>
 </html>
