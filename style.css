@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+.container-wide {
+  background-color: #333;
+}
+.container-wide nav a {
+  color: #fdfdfd;
+  position: relative;
+  margin: 0 20px 0 20px;
+}
+body {
+  line-height: 1.5;
+  background-color: #fef89a;
+}
+.card {
+  padding: 40px;
+  max-width: 840px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 5px 5px #909090;
+  border-radius: 10px;
+}
+.quote {
+  font-size: 2.25rem;
+}
+.quote-card {
+  margin: 20px auto;
+  background-color: transparent;
+  box-shadow: none;
+}
+.intro-text {
+  padding-bottom: 40px;
+}
+.introduction {
+  background-color: #fef89a;
+  width: 100%;
+  padding-bottom: 40px;
+  padding: top 20px;
+  transform: skewY(5deg);
+}
+.intro-card {
+  transform: skewY(-5deg);
+  margin: 40px auto;
+}
+.name-card p {
+  color: #909090;
+}
+.profile {
+  float: right;
+  width: 150px
+  margin-right: 10px;
+  margin-top: -120px;
+  border-radius: 150px;
+}
+button {
+  background-color: #45bee1;
+  color: #fff;
+  border: none;
+  min-height: 40px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #909090;
+}
+.project {
+  background-color: #a9ebef;
+  transform: skewY(-5deg);
+  width: 100%;
+}
+.project-card {
+  transform: skewY(5deg);
+  margin-bottom: 40px;
+}
+.clear {
+  clear: both;
+}
+.single-project-card {
+  width: 48%;
+  float: left;
+  margin-right: 10px;
+  min-height: 460px;
+  box-shadow: none;
+  border: 1px solid #f0f0f0;
+  padding: 0;
+  position: relative;
+}
+.project-description {
+  padding: 40px;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+}
+.contact-form {
+  background-color: #f5b4fe;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  transform: skewY(5deg);
+}
+.contact-form-card {
+  transform: skewY(-5deg);
+  margin: 0 auto 40px auto;
+}
+.stand-alone {
+  transform: skewY(-5deg);
+  max-width: 840px;
+  margin: 40px auto;
+  padding: 40px;
+}
+.input-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.input-group, .half {
+  width: 49%;
+  float: left;
+}
+.input-group, .clear {
+  padding-top: 40px;
+}
+input, textarea {
+  min-height: 40px;
+}
+input {
+  border: none;
+  background-color: #f0f0f0;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+textarea {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+}.half {
+  position: relative;
+  top: -50px;
+}
+.text-area {
+  position: relative;
+  top: -115px;
+}
+.form-button {
+  position: relative;
+  left: -370px;
+}
+.align-right {
+  float: right;
+}
+nav a {
+  text-decoration: none;
+}
+.pacing-robot {
+  background-image: url("images/pacing-robot.jpg");
+  background-position: cover;
+}
+.html-css-form {
+  background-image: url("images/html-css-form.jpg");
+  background-position: cover;
+}
+.container-wide {
+  margin: auto;
+}
