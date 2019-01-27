@@ -136,10 +136,6 @@ textarea {
 .text-area {
   width: 100%;
 }
-.form-button {
-  position: relative;
-  left: -370px;
-}
 .align-right {
   float: right;
 }
