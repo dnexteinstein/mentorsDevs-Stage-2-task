@@ -48,7 +48,7 @@ body {
 }
 .profile {
   float: right;
-  width: 150px
+  width: 150px;
   margin-right: 10px;
   margin-top: -120px;
   border-radius: 150px;
@@ -132,13 +132,9 @@ textarea {
   height: 50px;
   border: none;
   border-bottom: 1px solid #f0f0f0;
-}.half {
-  position: relative;
-  top: -50px;
 }
 .text-area {
-  position: relative;
-  top: -115px;
+  width: 100%;
 }
 .form-button {
   position: relative;
